@@ -11,9 +11,11 @@ package beans;
  */
 public class Staff {
     
-    private final int empCode;
-    private final String empName;
-    private final String empDept;
+    private int empCode;
+    private String empName;
+    private String empDept;
+    
+    public Staff() {}
     
     public Staff(int empCode, String empName, String empDept)
     {
@@ -46,6 +48,8 @@ public class Staff {
 //        this.empDept = empDept;
 //    }
     
-    
-    
+    public String showSubjects()
+    {
+        return null;
+    }
 }
